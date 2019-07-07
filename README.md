@@ -1,4 +1,4 @@
-# Installation and Set up of Robert Framework for running the script
+##Installation and Set up of Robert Framework for running the script
 
 1. Install Python 2.7.14 or above. You can download it from (https://www.python.org/downloads/release/python-360/). There are two major versions of Python: 2.7.14 and 3.6.4. Code snippets in the blog post will be given for version 2.7.14. If there is any difference for version 3.6.4, a note will be made with appropriate changes to version 3.6.4. It's up to the reader to choose which version to install.
 
@@ -34,4 +34,13 @@ Any test cases file forms a test suite file, regardless of the number of tests i
 A test case is composed of keywords. We can use keywords created us (they are named as user keywords), or import keywords from Robot Framework libraries. It's up to a test developer to choose which one to use, but keep in mind the following recommendation: in a test case try to avoid any programming and low-level keywords by using high-level user keywords instead. It will make such a test case easy to read and easy to understand.
 
 
-Reference:[https://dzone.com/articles/robot-framework-the-ultimate-guide-to-running-your]
+##Reference:
+
+[https://dzone.com/articles/robot-framework-the-ultimate-guide-to-running-your]
+
+## Run the code in your local
+
+ ``` robot new.robot```
+
+
+
